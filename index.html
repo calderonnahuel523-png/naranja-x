@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f36b21">
+	<meta name="description" content="Simulación educativa para aprender a reconocer páginas falsas y estafas bancarias.">
+	<title>Práctica de seguridad digital | No oficial</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#contenido">Ir al contenido principal</a>
+	<div class="training-banner" role="note">
+		<span class="banner-mark" aria-hidden="true">!</span>
+		<span><strong>SIMULACIÓN EDUCATIVA</strong> · No es el sitio oficial de Naranja X. No ingreses datos reales.</span>
+	</div>
+
+	<header class="site-header">
+		<a class="wordmark" href="#inicio" aria-label="Taller de seguridad digital, inicio">
+			<span class="wordmark-icon" aria-hidden="true">!</span>
+			<span>Taller <b>digital</b></span>
+		</a>
+		<span class="header-note">Material de prevención · No oficial</span>
+	</header>
+
+	<main id="contenido">
+		<section class="intro" id="inicio" aria-labelledby="page-title">
+			<div class="intro-copy">
+				<p class="eyebrow"><span class="eyebrow-line"></span> Aprendé a detectar el engaño</p>
+				<h1 id="page-title">Una página conocida también puede ser <em>falsa.</em></h1>
+				<p class="intro-text">Mirá las señales de esta práctica antes de tocar el formulario. Los estafadores suelen copiar nombres y colores para parecer confiables.</p>
+			</div>
+			<aside class="quick-check" aria-label="Regla rápida de seguridad">
+				<span class="quick-check-icon" aria-hidden="true">✓</span>
+				<div><strong>Regla rápida</strong><p>Si tenés dudas, cerrá la página y entrá desde la app oficial.</p></div>
+			</aside>
+		</section>
+
+		<section class="exercise" aria-label="Ejemplo de página falsa y señales de alerta">
+			<div class="warning-list">
+				<div class="section-heading">
+					<span class="section-number">01</span>
+					<div><h2>Encontrá las señales</h2><p>Este ejemplo tiene varias alertas a la vista.</p></div>
+				</div>
+
+				<article class="warning-item">
+					<span class="warning-icon" aria-hidden="true">↗</span>
+					<div><h3>Dirección sospechosa</h3><p>El sitio termina en <code>.invalid</code>. No es un dominio bancario real.</p></div>
+				</article>
+				<article class="warning-item">
+					<span class="warning-icon" aria-hidden="true">!</span>
+					<div><h3>Pide una clave</h3><p>Desconfiá de enlaces que te apuran para “validar” o desbloquear la cuenta.</p></div>
+				</article>
+				<article class="warning-item">
+					<span class="warning-icon" aria-hidden="true">?</span>
+					<div><h3>La apariencia no prueba nada</h3><p>Un logo, un candado o colores familiares no garantizan que sea legítimo.</p></div>
+				</article>
+				<div class="check-address">
+					<span class="address-dot" aria-hidden="true"></span>
+					<div><span>Dirección de esta práctica</span><strong>naranjax-verificacion.invalid</strong></div>
+					<span class="fake-tag">FALSA</span>
+				</div>
+			</div>
+
+			<div class="demo-column">
+				<div class="demo-label"><span class="demo-label-dot"></span> EJEMPLO FICTICIO · NO OFICIAL</div>
+				<section class="demo-panel" aria-labelledby="demo-title">
+					<div class="demo-topline"><span class="demo-brand">naranja <b>x</b></span><span class="demo-stamp">PRÁCTICA</span></div>
+					<div id="form-view">
+						<p class="demo-kicker">ACCESO DE DEMOSTRACIÓN</p>
+						<h2 id="demo-title">Verificá tu cuenta</h2>
+						<p class="demo-copy">Este texto simula un mensaje que podría usar una página falsa.</p>
+						<div class="demo-alert"><span aria-hidden="true">!</span><p>Tu cuenta podría bloquearse hoy. Ingresá tus datos para evitarlo.</p></div>
+						<form id="practice-form" autocomplete="off" novalidate>
+							<label for="example-user">Usuario ficticio</label>
+							<input id="example-user" name="example-user" type="text" placeholder="Por ejemplo: prueba123" autocomplete="off" spellcheck="false">
+							<label for="example-pass">Clave inventada</label>
+							<input id="example-pass" name="example-pass" type="password" placeholder="No uses tu clave real" autocomplete="new-password">
+							<p class="form-safety">Usá cualquier texto inventado. No escribas datos personales ni bancarios.</p>
+							<button type="submit">Continuar con la práctica <span aria-hidden="true">→</span></button>
+						</form>
+						<p class="demo-footnote"><span aria-hidden="true">ⓘ</span> Tus datos no se envían ni se guardan.</p>
+					</div>
+				</section>
+				<p class="demo-disclaimer">Nombre usado solo para una actividad de prevención. Sitio independiente, sin afiliación a Naranja X.</p>
+			</div>
+		</section>
+
+		<section class="takeaway" aria-label="Consejo final">
+			<span class="takeaway-icon" aria-hidden="true">✓</span>
+			<p><strong>Antes de ingresar:</strong> revisá la dirección, desconfiá de la urgencia y nunca compartas claves ni códigos por un enlace.</p>
+			<span class="takeaway-caption">PAUSA · REVISÁ · CONFIRMÁ</span>
+		</section>
+	</main>
+
+	<footer class="site-footer"><span>Actividad educativa de prevención de fraudes</span><span>No recopila información · No representa a una entidad financiera</span></footer>
+</body>
+</html>
